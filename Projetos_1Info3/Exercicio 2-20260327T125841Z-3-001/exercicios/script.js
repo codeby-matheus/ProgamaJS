@@ -1,0 +1,9 @@
+console.log (6 = B);
+console,log(7 = B);
+console.log(8 = C);
+console.log(9 = D);
+console.log(10 = A);
+console.log(11 = C);
+console.log(12 = B);
+console.log(13 = C);
+console.log(14 = D);

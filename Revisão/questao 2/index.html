@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+  <center> <h1>alexa, ligar aura</h1></center> 
+    <img src="so-sigma-oh-man.webp" width="600" alt="" />
+    <img src="so-sigma-oh-man.webp" width="200" alt="" />
+    <img src="so-sigma-oh-man.webp" width="200" alt="" />
+    <br />
+    <img src="pizza-tower-peppino.gif" width="600" alt="" />
+    <img src="tboi.gif" width="600" alt="" />
+    <img src="so-excited-dance.webp" width="600" alt="" />
+ 
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Botão de Áudio</title>
+
+<style>
+body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* botão */
+.audio-btn {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+/* efeito hover */
+.audio-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* quando está tocando */
+.audio-btn.playing {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+</style>
+</head>
+
+<body>
+
+<audio id="musica" src="nobruapelao.mp3"></audio>
+
+<button class="audio-btn" onclick="toggleAudio()" id="btn">
+▶ Tocar música
+</button>
+
+<script>
+function toggleAudio() {
+    const audio = document.getElementById("musica");
+    const btn = document.getElementById("btn");
+
+    if (audio.paused) {
+        audio.play();
+        btn.textContent = "⏸ Pausar";
+        btn.classList.add("playing");
+    } else {
+        audio.pause();
+        btn.textContent = "▶ Tocar música";
+        btn.classList.remove("playing");
+    }
+}
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
+
+</body>
+</html>
