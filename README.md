@@ -20,3 +20,8 @@ Este repositório é dedicado ao estudo, treino e armazenamento de exercícios e
 * 🔹 **Arrays e Objetos:** Estruturas de dados e métodos de iteração.
 
 ---
+
+## 🚀 Como Executar Localmente
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/XDQwerty/ProgamaJS.git](https://github.com/XDQwerty/ProgamaJS.git)
